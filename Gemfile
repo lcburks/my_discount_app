@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-ruby '1.9.3'  
+# ruby '1.9.3'  
 
 
 
@@ -17,6 +17,12 @@ gem 'pry'
 gem 'devise'
 
 gem 'jquery-rails' 
+
+gem 'vacuum' # reads the amazon prodcut advertising api 
+
+gem 'nokogiri' #xml parser gogin to use to read the output of vacuum
+
+
 
 group :development, :test do
   gem 'sqlite3' 

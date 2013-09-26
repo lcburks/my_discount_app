@@ -1,4 +1,9 @@
-MyDiscountApp::Application.routes.draw do
+MyDiscountApp::Application.routes.draw do 
+
+
+  devise_for :members #takes care of all devise routing
+
+  root :to => "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -7,6 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id="container"> # i added this
+		<div is="user_nav">
+			<% if user_signed_in? %>
+				Sidned in as <%= current_user.email %> Not you?
+				<%= link_to "Sign out" %>
+			<% else %>
+				
+			<% end %>
+		</div>
 
 <%= yield %>
 
