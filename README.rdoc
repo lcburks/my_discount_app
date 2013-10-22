@@ -23,13 +23,13 @@ The app asks the end buyer how long he/she is willing to wait for the item. What
 The app will calculate an average price for the item and give the max, mean and min. 
 
 (ALTERNATIVE ITEM RECOS)
- The app will display recommendations for alternative but similar items probably from Amazon’s recommendations
+The app will display recommendations for alternative but similar items probably from Amazon’s recommendations
 
 (CALCULATE-LIST DISCOUNTED PURCHASING OPTIONS) 
 The app will calculate what discount method or combination of discount methods will result in the best price. 
 
 (PRIORITIZE DISCOUNTED PURCHASING OPTIONS)
- The app will give members a choice of purchase options (by discount method) and allow them to prioritize them 
+The app will give members a choice of purchase options (by discount method) and allow them to prioritize them 
 
 (MAKE REQUESTS OF MEMBER(S) IN BUYING CHAIN/APP MESSAGE BOX/PERSONAL EMAIL NOTIFICATION) 
 After the member chooses his discount method, the app will message the other members involved in that method and they will receive a notification in their personal email boxes that they have a message in their app message box.
